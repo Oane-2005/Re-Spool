@@ -26,8 +26,8 @@ from re_spool_engine import Recorder, TapeProcessor
 
 # --- Distribution Constants ---
 APP_VERSION = "1.0.0"
-# Placeholder URL - Replace with your actual GitHub raw URL for version.json
-UPDATE_URL = "https://raw.githubusercontent.com/osein/RE-SPOOL/main/version.json"
+# Pointing to your specific GitHub Raw URL
+UPDATE_URL = "https://raw.githubusercontent.com/Oane-2005/Re-Spool/main/version.json"
 
 # --- Path Logic for Distribution ---
 def get_ffmpeg_path():
